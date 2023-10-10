@@ -1,1 +1,31 @@
-{"status":"success","data":{"id":"82a5ff22-2355-425b-8182-c9b72a508149","insurer":{"id":"791158ef-7fee-49af-bf84-bedd6d3e4016","name":"CHOL"},"tenant":{"id":"0998330d-4736-44d5-9db2-cff438654c3e","name":"Turtledoc","description":"Turtledoc Tenant."},"team":{"id":"10a2e470-b32f-43d0-a89b-613d875d1f66","name":"Admin","description":"Turtledoc admin team."},"callback_response":null,"step_performance":{},"important_pages":null,"user":{"id":"7707b07a-a019-47a7-94d0-16c2f6b317f5","first_name":"turtledoc_admin","last_name":"turtledoc_admin","email":"admin@turtlemint.com","role":0},"created_at":"2023-09-18T12:24:49.215892Z","updated_at":"2023-09-18T12:24:49.221841Z","source":"CONSUMERAPP","tm_file_service":null,"file_id":null,"file_download_url":"https://pro.avatar.turtle-feature.com/api/files/v1/download/6227327d-dc20-4f40-9a6c-88f11ea96026?broker=turtlemint","source_file_path":"https://pro.avatar.turtle-feature.com/api/files/v1/download/6227327d-dc20-4f40-9a6c-88f11ea96026?broker=turtlemint","client_reference_id":"4a600e51-ebc6-4930-9dfa-a53521ae73f3","error":null,"error_reason":null,"turnaround_time":null,"retry_count":0,"client_retry_count":null,"callback_url":"http://consumer-app-be:9060/api/ca/v1/webhook/extract?userId=8acaa418-d124-4d8a-a187-3a88a48eff7a","response_kafka_topic":null,"total_attributes":null,"matched_attributes_count":null,"average_confidence_score":null,"validation_score":null,"state":0,"completed_at":null,"callback_status":null,"total_page_count":null,"send_to_kafka":"False","network_latency":null,"force_fail":false,"qc_done":false,"priority":1,"status":4,"vertical":2}}
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2"
+    },
+    {
+      "id": 3,
+      "title": "Post 3"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
